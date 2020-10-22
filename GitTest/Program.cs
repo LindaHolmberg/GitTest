@@ -11,7 +11,13 @@ namespace GitTest
     {
         static void Main(string[] args)
         {
-            WriteLine("Hallå torsdag!");
+            //WriteLine("Hallå torsdag!");
+            for (int i = 1; i <= 10; i++)
+            {
+                WriteLine("{0}^2 = {1}", i, i * i);
+            }
+
+            ReadKey();
         }
     }
 }
