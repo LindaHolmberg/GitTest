@@ -12,9 +12,12 @@ namespace GitTest
         static void Main(string[] args)
         {
             //WriteLine("Hallå torsdag!");
-            for (int i = 1; i <= 10; i++)
+            for (int b = 2; b < 5; b++)
             {
-                WriteLine("sqrt{0} = {1}", i, Math.Pow(2, i));
+                for (int i = 1; i <= 10; i++)
+                {
+                    WriteLine("{0}^{1} = {2}", b, i, Math.Pow(b, i));
+                }
             }
 
             ReadKey();
