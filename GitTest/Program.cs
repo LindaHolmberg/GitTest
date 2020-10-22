@@ -14,7 +14,7 @@ namespace GitTest
             //WriteLine("Hallå torsdag!");
             for (int i = 1; i <= 10; i++)
             {
-                WriteLine("sqrt{0} = {1}", i, Math.Sqrt(i));
+                WriteLine("sqrt{0} = {1}", i, Math.Pow(2, i));
             }
 
             ReadKey();
